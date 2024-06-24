@@ -8,3 +8,9 @@ The data used for this project was obtained from the open-access website "https:
 
 ## Training 
 The nowcasting project was structured into two distinct sections: training and operational. In the training phase, a model was developed and trained over 20 epochs, with the primary metric being loss. The model weights were saved into a file named "model_weights.h5" only if the loss in a particular epoch was lower than that of all previous epochs. Subsequently, in the operational phase, the trained model weights were utilized along with the most recent 20 images to nowcast the subsequent images. This approach ensures that the model is trained effectively and deployed efficiently for accurate nowcasting of temperature and pressure values.
+
+## Output
+Nowcasted Temperature after 5 minutes
+<img src="output/temp.png">
+Nowcasted Pressure after 5 minutes
+<img src="output/pressure.png">
