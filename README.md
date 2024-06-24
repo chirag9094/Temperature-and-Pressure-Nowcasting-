@@ -11,6 +11,8 @@ The nowcasting project was structured into two distinct sections: training and o
 
 ## Output
 Nowcasted Temperature after 5 minutes
-<img src="output/temp.png">
+<img src="output/image0.png">
+
 Nowcasted Pressure after 5 minutes
-<img src="output/pressure.png">
+
+<img src="output/image1.png">
